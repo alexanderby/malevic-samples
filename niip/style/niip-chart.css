@@ -1,0 +1,49 @@
+.niip-chart {
+    background-color: var(--chart-bg);
+    border-radius: 0.5rem 0.75rem;
+}
+
+.niip-chart text.title {
+    text-transform: capitalize;
+}
+
+.niip-chart rect {
+    fill: var(--chart-bar);
+}
+
+.niip-chart g:nth-child(even) rect {
+    fill: var(--chart-bar-2);
+}
+
+.niip-chart rect.negative {
+    fill: var(--chart-bar-neg);
+}
+
+.niip-chart g:nth-child(even) rect.negative {
+    fill: var(--chart-bar-neg-2);
+}
+
+.niip-chart text {
+    fill: var(--chart-text);
+}
+
+.niip-chart g:nth-child(even) text {
+    fill: var(--chart-text-2);
+}
+
+.niip-chart g.highlight rect {
+    stroke: var(--chart-bar-stroke-highlight);
+}
+
+.niip-chart g.highlight text {
+    fill: var(--chart-bar-text-highlight);
+}
+
+.niip-chart .axis line {
+    stroke: var(--chart-tick);
+    stroke-width: 1;
+}
+
+.niip-chart .axis text {
+    fill: var(--chart-tick-text);
+}

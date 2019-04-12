@@ -1,0 +1,20 @@
+:root {
+    --accent: #2b7fd0;
+    --bg: #111213;
+    --border: #4e4c49;
+    --hover: #222324;
+    --text: #d7d4d1;
+    --chart-bg: #222324;
+    --chart-bar: #31aae2;
+    --chart-bar-2: #2b7fd0;
+    --chart-bar-neg: #dd462b;
+    --chart-bar-neg-2: #92392a;
+    --chart-bar-stroke-highlight: white;
+    --chart-bar-text-highlight: white;
+    --chart-text: #d7d4d1;
+    --chart-text-2: #9c9995;
+    --chart-tick: #4e4c49;
+    --chart-tick-text: #9c9995;
+    --chart-tooltip-bg: #323334;
+    --chart-tooltip-border: #4e4c49;
+}

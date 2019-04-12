@@ -1,0 +1,332 @@
+[
+    {
+        "name": "Argentina",
+        "gdp": 637717,
+        "niip": 52581,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/23px-Flag_of_Argentina.svg.png"
+    },
+    {
+        "name": "Australia",
+        "gdp": 1379548,
+        "niip": -738897,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/23px-Flag_of_Australia_%28converted%29.svg.png"
+    },
+    {
+        "name": "Austria",
+        "gdp": 416845,
+        "niip": 19117,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/23px-Flag_of_Austria.svg.png"
+    },
+    {
+        "name": "Belgium",
+        "gdp": 494733,
+        "niip": 219992,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png"
+    },
+    {
+        "name": "Brazil",
+        "gdp": 2054969,
+        "niip": -716566,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png"
+    },
+    {
+        "name": "Bulgaria",
+        "gdp": 56943,
+        "niip": -27030,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png"
+    },
+    {
+        "name": "Canada",
+        "gdp": 1652412,
+        "niip": 140242,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/23px-Flag_of_Canada_%28Pantone%29.svg.png"
+    },
+    {
+        "name": "Chile",
+        "gdp": 277041,
+        "niip": -53500,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/23px-Flag_of_Chile.svg.png"
+    },
+    {
+        "name": "Croatia",
+        "gdp": 54516,
+        "niip": -37072,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png"
+    },
+    {
+        "name": "Cyprus",
+        "gdp": 21310,
+        "niip": -23667,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/23px-Flag_of_Cyprus.svg.png"
+    },
+    {
+        "name": "Czech Republic",
+        "gdp": 213189,
+        "niip": -45850,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png"
+    },
+    {
+        "name": "Denmark",
+        "gdp": 324484,
+        "niip": 164023,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/20px-Flag_of_Denmark.svg.png"
+    },
+    {
+        "name": "Estonia",
+        "gdp": 25973,
+        "niip": -8218,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/23px-Flag_of_Estonia.svg.png"
+    },
+    {
+        "name": "Finland",
+        "gdp": 253244,
+        "niip": 16133,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/23px-Flag_of_Finland.svg.png"
+    },
+    {
+        "name": "France",
+        "gdp": 2583560,
+        "niip": -370149,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png"
+    },
+    {
+        "name": "Germany",
+        "gdp": 3684816,
+        "niip": 1797290,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png"
+    },
+    {
+        "name": "Greece",
+        "gdp": 200690,
+        "niip": -253097,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/23px-Flag_of_Greece.svg.png"
+    },
+    {
+        "name": "Hong Kong",
+        "gdp": 341659,
+        "niip": 1180677,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/23px-Flag_of_Hong_Kong.svg.png"
+    },
+    {
+        "name": "Hungary",
+        "gdp": 152284,
+        "niip": -70222,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png"
+    },
+    {
+        "name": "Iceland",
+        "gdp": 23909,
+        "niip": 233,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/21px-Flag_of_Iceland.svg.png"
+    },
+    {
+        "name": "India",
+        "gdp": 2611012,
+        "niip": -370562,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png"
+    },
+    {
+        "name": "Indonesia",
+        "gdp": 1015411,
+        "niip": -320958,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/23px-Flag_of_Indonesia.svg.png"
+    },
+    {
+        "name": "Ireland",
+        "gdp": 333994,
+        "niip": -519308,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/23px-Flag_of_Ireland.svg.png"
+    },
+    {
+        "name": "Israel",
+        "gdp": 350609,
+        "niip": 106051,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/21px-Flag_of_Israel.svg.png"
+    },
+    {
+        "name": "Italy",
+        "gdp": 1937894,
+        "niip": -325984,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png"
+    },
+    {
+        "name": "Japan",
+        "gdp": 4872135,
+        "niip": 3067264,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/23px-Flag_of_Japan.svg.png"
+    },
+    {
+        "name": "Kazakhstan",
+        "gdp": 160839,
+        "niip": -41894,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/23px-Flag_of_Kazakhstan.svg.png"
+    },
+    {
+        "name": "Latvia",
+        "gdp": 30319,
+        "niip": -15341,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/23px-Flag_of_Latvia.svg.png"
+    },
+    {
+        "name": "Lithuania",
+        "gdp": 47263,
+        "niip": -17631,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/23px-Flag_of_Lithuania.svg.png"
+    },
+    {
+        "name": "Luxembourg",
+        "gdp": 62393,
+        "niip": 13266,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/23px-Flag_of_Luxembourg.svg.png"
+    },
+    {
+        "name": "Malta",
+        "gdp": 12011,
+        "niip": 5499,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Malta.svg/23px-Flag_of_Malta.svg.png"
+    },
+    {
+        "name": "Mexico",
+        "gdp": 1149236,
+        "niip": -482209,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/23px-Flag_of_Mexico.svg.png"
+    },
+    {
+        "name": "Netherlands",
+        "gdp": 825745,
+        "niip": 557748,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png"
+    },
+    {
+        "name": "New Zealand",
+        "gdp": 201486,
+        "niip": -120159,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/23px-Flag_of_New_Zealand.svg.png"
+    },
+    {
+        "name": "Nigeria",
+        "gdp": 376284,
+        "niip": -63264,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/23px-Flag_of_Nigeria.svg.png"
+    },
+    {
+        "name": "Norway",
+        "gdp": 396457,
+        "niip": 732542,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png"
+    },
+    {
+        "name": "People's Republic of China",
+        "gdp": 12014610,
+        "niip": 1747082,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png"
+    },
+    {
+        "name": "Philippines",
+        "gdp": 313419,
+        "niip": -30602,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/23px-Flag_of_the_Philippines.svg.png"
+    },
+    {
+        "name": "Poland",
+        "gdp": 523886,
+        "niip": -274400,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png"
+    },
+    {
+        "name": "Portugal",
+        "gdp": 218064,
+        "niip": -204712,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/23px-Flag_of_Portugal.svg.png"
+    },
+    {
+        "name": "Romania",
+        "gdp": 211315,
+        "niip": -82858,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/23px-Flag_of_Romania.svg.png"
+    },
+    {
+        "name": "Russia",
+        "gdp": 1527469,
+        "niip": 226954,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png"
+    },
+    {
+        "name": "Saudi Arabia",
+        "gdp": 683827,
+        "niip": 587867,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/23px-Flag_of_Saudi_Arabia.svg.png"
+    },
+    {
+        "name": "Singapore",
+        "gdp": 323902,
+        "niip": 635296,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/23px-Flag_of_Singapore.svg.png"
+    },
+    {
+        "name": "Slovakia",
+        "gdp": 95938,
+        "niip": -49609,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png"
+    },
+    {
+        "name": "Slovenia",
+        "gdp": 48868,
+        "niip": -14479,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/23px-Flag_of_Slovenia.svg.png"
+    },
+    {
+        "name": "South Korea",
+        "gdp": 1538030,
+        "niip": 278485,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/23px-Flag_of_South_Korea.svg.png"
+    },
+    {
+        "name": "Spain",
+        "gdp": 1313951,
+        "niip": -1005677,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png"
+    },
+    {
+        "name": "Sweden",
+        "gdp": 538575,
+        "niip": 80567,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png"
+    },
+    {
+        "name": "Switzerland",
+        "gdp": 678575,
+        "niip": 839313,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png"
+    },
+    {
+        "name": "Taiwan",
+        "gdp": 579302,
+        "niip": 1180824,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/23px-Flag_of_the_Republic_of_China.svg.png"
+    },
+    {
+        "name": "Turkey",
+        "gdp": 849480,
+        "niip": -356149,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/23px-Flag_of_Turkey.svg.png"
+    },
+    {
+        "name": "United Kingdom",
+        "gdp": 2624529,
+        "niip": 575745,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png"
+    },
+    {
+        "name": "United States",
+        "gdp": 19390600,
+        "niip": -8109652,
+        "icon": "//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png"
+    },
+    {
+        "name": "Venezuela",
+        "gdp": 210085,
+        "niip": 134450,
+        "icon": "//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/23px-Flag_of_Venezuela.svg.png"
+    }
+]

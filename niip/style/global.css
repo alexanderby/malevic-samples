@@ -1,0 +1,17 @@
+html {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: Helvetica Neue, Segoe UI, Open Sans, Ubuntu, sans-serif;
+    font-size: 0.75rem;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: var(--text);
+}
+
+.tooltip {
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 0.5rem;
+}

@@ -1,0 +1,5 @@
+@import "./style/vars.css";
+@import "./style/global.css";
+@import "./style/niip-chart.css";
+@import "./style/niip-chart-tooltip.css";
+@import "./style/switch-button.css";

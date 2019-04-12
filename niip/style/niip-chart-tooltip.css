@@ -1,0 +1,21 @@
+.niip-chart-tooltip {
+    background-color: var(--chart-tooltip-bg);
+    border: 1px solid var(--chart-tooltip-border);
+    border-radius: 0.25rem;
+    color: var(--text);
+    padding: 0.5rem;
+}
+
+.niip-chart-tooltip__label {
+    font-weight: bold;
+}
+
+.niip-chart-tooltip__label__icon {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 0.75rem;
+    margin-right: 0.25rem;
+    width: 0.75rem;
+}
