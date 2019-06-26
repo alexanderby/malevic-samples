@@ -1,4 +1,5 @@
-const {m, sync} = Malevic;
+const {m} = Malevic;
+const {sync} = Malevic.DOM;
 
 let node = null;
 const padding = 16;

@@ -1,7 +1,8 @@
-const {m, render} = Malevic;
+const {m} = Malevic;
+const {render} = Malevic.DOM;
 
 export function switchButton({container, items, active}) {
-    return render(container, (
+    render(container, (
         m('span', {class: 'switch-button'},
             ...Object.entries(items).map(([name, onclick]) => {
                 return m('span',

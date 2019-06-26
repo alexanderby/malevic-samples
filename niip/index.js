@@ -18,21 +18,21 @@ function renderGDPChart() {
     const data = getGDPData(state.dataset);
     const title = 'GDP (millions USD)';
     const format = formatMUSD;
-    return renderChart({data, title, format});
+    renderChart({data, title, format});
 }
 
 function renderNIIPChart() {
     const data = getNIIPData(state.dataset);
     const title = 'Net International Investment Position';
     const format = formatMUSD;
-    return renderChart({data, title, format});
+    renderChart({data, title, format});
 }
 
 function renderNIIPToGDPChart() {
     const data = getNIIPToGDPData(state.dataset);
     const title = 'NIIP to GDP (%)';
     const format = formatPercent;
-    return renderChart({data, title, format});
+    renderChart({data, title, format});
 }
 
 const chartTypes = {

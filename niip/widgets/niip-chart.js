@@ -1,13 +1,16 @@
 import {scaleBand, scaleLinear} from '../utils/scale.js';
 import {tooltip} from './tooltip.js';
-const {m, render} = Malevic;
-const {animate} = Malevic.Animation;
-
-Malevic.Animation();
+const {m} = Malevic;
+const {render} = Malevic.DOM;
+const {withAnimation, animate} = Malevic.Animation;
 
 const isChrome = navigator.userAgent.includes('Chrome') || navigator.userAgent.includes('Chromium');
 
-export function niipChart({container, width, height, data, title: titleText, format}) {
+export function niipChart({container, width, height, data, title, format}) {
+    render(container, m(Chart, {width, height, data, title, format}));
+}
+
+const Chart = withAnimation(({width, height, data, title: titleText, format}) => {
     const pad = 12;
     const titleSize = Math.max(24, Math.floor(height * 0.05));
     const iconRatio = 0.75;
@@ -96,8 +99,8 @@ export function niipChart({container, width, height, data, title: titleText, for
         return m('g',
             {
                 key: d.id,
-                didmount: (node) => barNodes.set(d.id, node),
-                didupdate: (node) => barNodes.set(d.id, node),
+                attached: (node) => barNodes.set(d.id, node),
+                updated: (node) => barNodes.set(d.id, node),
             },
             m('rect', {
                 class: isNegative ? 'negative' : null,
@@ -199,26 +202,30 @@ export function niipChart({container, width, height, data, title: titleText, for
         return null;
     }
 
-    function animateAttrs(declaration) {
-        if (!isChrome) {
-            return declaration;
+    function animateSVGAttrs(spec) {
+        if (Array.isArray(spec)) {
+            spec.forEach((s) => animateSVGAttrs(s));
+            return spec;
         }
-        if (!declaration || typeof declaration !== 'object') {
-            return;
+
+        if (
+            !isChrome ||
+            !spec ||
+            typeof spec !== 'object' ||
+            typeof spec.type !== 'string'
+        ) {
+            return spec;
         }
+
         const attrs = ['x', 'y', 'x1', 'x2', 'y1', 'y2', 'width', 'height', 'transform-origin', 'transform'];
-        attrs.forEach((a) => {
-            if (declaration.attrs && declaration.attrs.hasOwnProperty(a) && typeof declaration.attrs[a] !== 'object') {
-                declaration.attrs[a] = animate(declaration.attrs[a]);
-            }
-        });
-        if (Array.isArray(declaration.children)) {
-            declaration.children.forEach((d) => animateAttrs(d));
-        }
-        return declaration;
+        attrs
+            .filter((attr) => spec.props.hasOwnProperty(attr) && typeof spec.props[attr] !== 'object')
+            .forEach((attr) => spec.props[attr] = animate(spec.props[attr]));
+        spec.children.forEach((s) => animateSVGAttrs(s));
+        return spec;
     }
 
-    return render(container, animateAttrs(
+    return animateSVGAttrs(
         m('svg',
             {
                 class: 'niip-chart',
@@ -228,8 +235,8 @@ export function niipChart({container, width, height, data, title: titleText, for
                     'font-size': `${textSize}px`,
                     opacity: animate(1).initial(0),
                 },
-                didmount: (node) => svgNode = node,
-                didupdate: (node) => svgNode = node,
+                attached: (node) => svgNode = node,
+                updated: (node) => svgNode = node,
                 onmousemove: onMouseMove,
                 onmouseleave: onMouseLeave,
             },
@@ -239,5 +246,5 @@ export function niipChart({container, width, height, data, title: titleText, for
                 ...data.map((d, i) => bar(d, i))
             )
         )
-    ));
-}
+    );
+});
