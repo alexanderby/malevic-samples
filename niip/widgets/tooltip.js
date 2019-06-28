@@ -18,6 +18,7 @@ export function tooltip({x, y, content}) {
             {
                 class: 'tooltip',
                 style: {
+                    display: null,
                     position: 'fixed',
                     left: 0,
                     top: 0,
