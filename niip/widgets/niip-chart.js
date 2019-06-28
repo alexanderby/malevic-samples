@@ -18,6 +18,7 @@ const Chart = withAnimation(({width, height, data, title: titleText, format}) =>
     const textPad = 4;
     const barPad = 0.2;
     const maxTextWidth = 64;
+    const animationDuration = 750;
 
     const values = data.map((d) => d.value);
     const min = Math.min(...values);
@@ -220,7 +221,9 @@ const Chart = withAnimation(({width, height, data, title: titleText, format}) =>
         const attrs = ['x', 'y', 'x1', 'x2', 'y1', 'y2', 'width', 'height', 'transform-origin', 'transform'];
         attrs
             .filter((attr) => spec.props.hasOwnProperty(attr) && typeof spec.props[attr] !== 'object')
-            .forEach((attr) => spec.props[attr] = animate(spec.props[attr]));
+            .forEach((attr) =>
+                spec.props[attr] = animate(spec.props[attr], {duration: animationDuration})
+            );
         spec.children.forEach((s) => animateSVGAttrs(s));
         return spec;
     }
